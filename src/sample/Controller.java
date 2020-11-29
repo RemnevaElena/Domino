@@ -5,15 +5,10 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Insets;
 import javafx.scene.Node;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.scene.control.ToggleButton;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
-import javafx.util.Pair;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -31,25 +26,18 @@ public class Controller {
 
     private ArrayList<Bone> bones;
 
-
-    @FXML
-    private Button result;
-
     @FXML
     GridPane grid;
 
     @FXML
     void initialize() {
         bones = new ArrayList<>();
-        int[][] bones1 = new int[7][7];
         grid.setStyle("-fx-background-color: #262626;");
-
 
         // Реализация метода, определенного в интерефейсе HandleFunction, являющегося функциональным
         BoneClickHandler.HandleFunction handler = (first, second) -> {
             Bone bone = new Bone(first, second);
             ToggleButton tg = getButton(first, second);
-            System.out.println("selected? " + tg.isSelected());
             if (tg.isSelected()) {
                 tg.setOpacity(1.0);
                 bones.add(bone);
@@ -57,8 +45,6 @@ public class Controller {
                 tg.setOpacity(0.5);
                 bones.remove(bone);
             }
-            System.out.println("array: " + bones);
-
         };
 
         for (Node x : grid.getChildren()) {
@@ -159,11 +145,10 @@ public class Controller {
 
     public void openNewStage() throws IOException{
         Stage newStage = new Stage();
-//        Parent root = FXMLLoader.load(getClass().getResource("res.fxml"));
         FXMLLoader loader = new FXMLLoader(getClass().getResource("res.fxml"));
 
         newStage.setTitle("Lenkino Domino");
-        newStage.setScene(new Scene(loader.load(), 900, 870));
+        newStage.setScene(new Scene(loader.load(), 1000, 500));
         newStage.setResizable(false);
 
         ResController resController = loader.getController();

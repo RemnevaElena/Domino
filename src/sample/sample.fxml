@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!--      <ImageView fx:id="background" fitHeight="900.0" fitWidth="1800.0" preserveRatio="true">-->
-<!--         <image>-->
-<!--            <Image url="@../../res/background.jpg" />-->
-<!--         </image></ImageView>-->
-
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
@@ -16,138 +11,103 @@
             <font>
                 <Font name="Blackadder ITC" size="18.0" />
             </font>
-         <BorderPane.margin>
-            <Insets bottom="30.0" top="10.0" />
-         </BorderPane.margin></Text>
+            <BorderPane.margin>
+                <Insets bottom="30.0" top="10.0" />
+            </BorderPane.margin></Text>
     </top>
-<center>
-    <GridPane fx:id="grid" alignment="TOP_CENTER">
-    <ToggleButton fx:id="k00" style="-fx-background-color: transparent; -fx-graphic: url(/res/00.png);" GridPane.columnIndex="0" GridPane.rowIndex="0">
-    </ToggleButton>
+    <center>
+        <GridPane fx:id="grid" alignment="TOP_CENTER">
+            <ToggleButton fx:id="k00" style="-fx-background-color: transparent; -fx-graphic: url(/res/00.png);" GridPane.columnIndex="0" GridPane.rowIndex="0">
+            </ToggleButton>
 
-    <ToggleButton fx:id="k01" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/01.png);" GridPane.columnIndex="1" GridPane.rowIndex="0">
-    </ToggleButton>
+            <ToggleButton fx:id="k01" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/01.png);" GridPane.columnIndex="1" GridPane.rowIndex="0">
+            </ToggleButton>
 
-    <ToggleButton fx:id="k02" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/02.png);" GridPane.columnIndex="2" GridPane.rowIndex="0">
-    </ToggleButton>
+            <ToggleButton fx:id="k02" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/02.png);" GridPane.columnIndex="2" GridPane.rowIndex="0">
+            </ToggleButton>
 
-    <ToggleButton fx:id="k03" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/03.png);" GridPane.columnIndex="3" GridPane.rowIndex="0">
-    </ToggleButton>
+            <ToggleButton fx:id="k03" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/03.png);" GridPane.columnIndex="3" GridPane.rowIndex="0">
+            </ToggleButton>
 
-    <ToggleButton fx:id="k04" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/04.png);" GridPane.columnIndex="4" GridPane.rowIndex="0">
-    </ToggleButton>
+            <ToggleButton fx:id="k04" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/04.png);" GridPane.columnIndex="4" GridPane.rowIndex="0">
+            </ToggleButton>
 
-    <ToggleButton fx:id="k05" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/05.png);" GridPane.columnIndex="5" GridPane.rowIndex="0">
-    </ToggleButton>
+            <ToggleButton fx:id="k05" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/05.png);" GridPane.columnIndex="5" GridPane.rowIndex="0">
+            </ToggleButton>
 
-    <ToggleButton fx:id="k06" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/06.png);" GridPane.columnIndex="6" GridPane.rowIndex="0">
-    </ToggleButton>
+            <ToggleButton fx:id="k06" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/06.png);" GridPane.columnIndex="6" GridPane.rowIndex="0">
+            </ToggleButton>
 
-    <ToggleButton fx:id="k11" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/11.png);" GridPane.columnIndex="0" GridPane.rowIndex="1">
-    </ToggleButton>
+            <ToggleButton fx:id="k11" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/11.png);" GridPane.columnIndex="0" GridPane.rowIndex="1">
+            </ToggleButton>
 
-    <ToggleButton fx:id="k12" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/12.png);" GridPane.columnIndex="1" GridPane.rowIndex="1">
-    </ToggleButton>
+            <ToggleButton fx:id="k12" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/12.png);" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            </ToggleButton>
 
-    <ToggleButton fx:id="k13" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/13.png);" GridPane.columnIndex="2" GridPane.rowIndex="1">
-    </ToggleButton>
+            <ToggleButton fx:id="k13" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/13.png);" GridPane.columnIndex="2" GridPane.rowIndex="1">
+            </ToggleButton>
 
-    <ToggleButton fx:id="k14" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/14.png);" GridPane.columnIndex="3" GridPane.rowIndex="1">
-    </ToggleButton>
+            <ToggleButton fx:id="k14" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/14.png);" GridPane.columnIndex="3" GridPane.rowIndex="1">
+            </ToggleButton>
 
-    <ToggleButton fx:id="k15" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/15.png);" GridPane.columnIndex="4" GridPane.rowIndex="1">
-    </ToggleButton>
+            <ToggleButton fx:id="k15" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/15.png);" GridPane.columnIndex="4" GridPane.rowIndex="1">
+            </ToggleButton>
 
-    <ToggleButton fx:id="k16" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/16.png);" GridPane.columnIndex="5" GridPane.rowIndex="1">
-    </ToggleButton>
+            <ToggleButton fx:id="k16" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/16.png);" GridPane.columnIndex="5" GridPane.rowIndex="1">
+            </ToggleButton>
 
-    <ToggleButton fx:id="k22" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/22.png);" GridPane.columnIndex="6" GridPane.rowIndex="1">
-    </ToggleButton>
+            <ToggleButton fx:id="k22" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/22.png);" GridPane.columnIndex="6" GridPane.rowIndex="1">
+            </ToggleButton>
 
-    <ToggleButton fx:id="k23" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/23.png);" GridPane.columnIndex="0" GridPane.rowIndex="2">
-    </ToggleButton>
+            <ToggleButton fx:id="k23" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/23.png);" GridPane.columnIndex="0" GridPane.rowIndex="2">
+            </ToggleButton>
 
-    <ToggleButton fx:id="k24" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/24.png);" GridPane.columnIndex="1" GridPane.rowIndex="2">
-    </ToggleButton>
+            <ToggleButton fx:id="k24" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/24.png);" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            </ToggleButton>
 
-    <ToggleButton fx:id="k25" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/25.png);" GridPane.columnIndex="2" GridPane.rowIndex="2">
-    </ToggleButton>
+            <ToggleButton fx:id="k25" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/25.png);" GridPane.columnIndex="2" GridPane.rowIndex="2">
+            </ToggleButton>
 
-    <ToggleButton fx:id="k26" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/26.png);" GridPane.columnIndex="3" GridPane.rowIndex="2">
-    </ToggleButton>
+            <ToggleButton fx:id="k26" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/26.png);" GridPane.columnIndex="3" GridPane.rowIndex="2">
+            </ToggleButton>
 
-    <ToggleButton fx:id="k33" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/33.png);" GridPane.columnIndex="4" GridPane.rowIndex="2">
-    </ToggleButton>
+            <ToggleButton fx:id="k33" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/33.png);" GridPane.columnIndex="4" GridPane.rowIndex="2">
+            </ToggleButton>
 
-    <ToggleButton fx:id="k34" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/34.png); " GridPane.columnIndex="5" GridPane.rowIndex="2">
-    </ToggleButton>
+            <ToggleButton fx:id="k34" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/34.png); " GridPane.columnIndex="5" GridPane.rowIndex="2">
+            </ToggleButton>
 
-    <ToggleButton fx:id="k35" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/35.png);" GridPane.columnIndex="6" GridPane.rowIndex="2">
-    </ToggleButton>
+            <ToggleButton fx:id="k35" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/35.png);" GridPane.columnIndex="6" GridPane.rowIndex="2">
+            </ToggleButton>
 
-    <ToggleButton fx:id="k36" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/36.png);" GridPane.columnIndex="0" GridPane.rowIndex="3">
-    </ToggleButton>
+            <ToggleButton fx:id="k36" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/36.png);" GridPane.columnIndex="0" GridPane.rowIndex="3">
+            </ToggleButton>
 
-    <ToggleButton fx:id="k44" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/44.png);" GridPane.columnIndex="1" GridPane.rowIndex="3">
-    </ToggleButton>
+            <ToggleButton fx:id="k44" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/44.png);" GridPane.columnIndex="1" GridPane.rowIndex="3">
+            </ToggleButton>
 
-    <ToggleButton fx:id="k45" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/45.png);" GridPane.columnIndex="2" GridPane.rowIndex="3">
-    </ToggleButton>
+            <ToggleButton fx:id="k45" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/45.png);" GridPane.columnIndex="2" GridPane.rowIndex="3">
+            </ToggleButton>
 
-    <ToggleButton fx:id="k46" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/46.png);" GridPane.columnIndex="3" GridPane.rowIndex="3">
-    </ToggleButton>
+            <ToggleButton fx:id="k46" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/46.png);" GridPane.columnIndex="3" GridPane.rowIndex="3">
+            </ToggleButton>
 
-    <ToggleButton fx:id="k55" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/55.png);" GridPane.columnIndex="4" GridPane.rowIndex="3">
-    </ToggleButton>
+            <ToggleButton fx:id="k55" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/55.png);" GridPane.columnIndex="4" GridPane.rowIndex="3">
+            </ToggleButton>
 
-    <ToggleButton fx:id="k56" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/56.png);" GridPane.columnIndex="5" GridPane.rowIndex="3">
-    </ToggleButton>
+            <ToggleButton fx:id="k56" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/56.png);" GridPane.columnIndex="5" GridPane.rowIndex="3">
+            </ToggleButton>
 
-    <ToggleButton fx:id="k66" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/66.png);" GridPane.columnIndex="6" GridPane.rowIndex="3">
-    </ToggleButton>
-         <columnConstraints>
-            <ColumnConstraints />
-            <ColumnConstraints />
-            <ColumnConstraints />
-            <ColumnConstraints />
-            <ColumnConstraints />
-            <ColumnConstraints />
-            <ColumnConstraints />
-         </columnConstraints>
-         <rowConstraints>
-            <RowConstraints />
-            <RowConstraints />
-            <RowConstraints />
-            <RowConstraints />
-         </rowConstraints>
+            <ToggleButton fx:id="k66" prefHeight="137.0" prefWidth="80.0" style="-fx-background-color: transparent; -fx-graphic: url(/res/66.png);" GridPane.columnIndex="6" GridPane.rowIndex="3">
+            </ToggleButton>
 
-<!--   <columnConstraints>-->
-<!--      <ColumnConstraints maxWidth="106.4" minWidth="80.6" prefWidth="100.8" />-->
-<!--      <ColumnConstraints maxWidth="106.4" minWidth="80.6" prefWidth="100.8" />-->
-<!--      <ColumnConstraints maxWidth="106.6" minWidth="80.2" prefWidth="100.8" />-->
-<!--      <ColumnConstraints maxWidth="103.4" minWidth="76.79998474121092" prefWidth="99.6" />-->
-<!--      <ColumnConstraints maxWidth="168.80001525878907" minWidth="75.0" prefWidth="102.60000000000002" />-->
-<!--      <ColumnConstraints maxWidth="185.8" minWidth="81.40000000000003" prefWidth="109.19999999999999" />-->
-<!--      <ColumnConstraints maxWidth="203.39999999999998" minWidth="79.0" prefWidth="105.0" />-->
-<!--      <ColumnConstraints maxWidth="206.60000000000002" minWidth="64.60000000000002" prefWidth="150.39999999999998" />-->
-<!--      <ColumnConstraints maxWidth="155.0" minWidth="0.0" prefWidth="0.0" />-->
-<!--   </columnConstraints>-->
-<!--   <rowConstraints>-->
-<!--      <RowConstraints maxHeight="71.79999618530273" minHeight="38.4" prefHeight="38.4" />-->
-<!--      <RowConstraints maxHeight="149.6" minHeight="112.20000381469727" prefHeight="149.6" />-->
-<!--      <RowConstraints maxHeight="168.6" minHeight="121.99999999999997" prefHeight="146.39999999999998" />-->
-<!--      <RowConstraints maxHeight="163.2" minHeight="106.60000000000002" prefHeight="151.2" />-->
-<!--       <RowConstraints maxHeight="173.59999999999997" minHeight="143.59999999999997" prefHeight="153.59999999999997" />-->
-<!--      <RowConstraints maxHeight="30.0" minHeight="0.0" prefHeight="0.0" />-->
-<!--      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />-->
-<!--   </rowConstraints>-->
-</GridPane>
-</center>
+        </GridPane>
+    </center>
 
     <bottom>
-        <Button fx:id="result" mnemonicParsing="false" onAction="#onResultClick" prefHeight="36.0" prefWidth="130.0" text="Построить!" BorderPane.alignment="BOTTOM_CENTER">
-         <BorderPane.margin>
-            <Insets bottom="10.0" top="20.0" />
-         </BorderPane.margin></Button>
+        <Button mnemonicParsing="false" onAction="#onResultClick" prefHeight="36.0" prefWidth="130.0" text="Построить!" BorderPane.alignment="BOTTOM_CENTER">
+            <BorderPane.margin>
+                <Insets bottom="10.0" top="20.0" />
+            </BorderPane.margin></Button>
     </bottom>
 </BorderPane>
